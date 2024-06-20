@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.png">
+    <title>PWA - Galeria Podróżnicza</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="manifest" href="./manifest.json">
+    <meta name="theme-color" content="#33CC33">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Strona główna</a></li>
+                <li><a href="gallery.html">Galeria</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+        </nav>
+        <h1>Galeria Podróżnicza</h1>
+
+    </header>
+    <main>
+        <div class="gallery">
+            <button id="prev">Poprzednie</button>
+            <img id="gallery-img" src="https://img.freepik.com/darmowe-zdjecie/osoba-podrozujaca-i-cieszaca-sie-wakacjami_23-2151382978.jpg?w=1800&t=st=1718708825~exp=1718709425~hmac=b58c6df04e40f3159f4f85377542d39ecd45d7f72b3c105e08e77124498e6d08" alt="Galeria zdjęć">
+            <button id="next">Następne</button>
+        </div>
+    </main>
+    <footer>
+        <p>Projekt 2024</p>
+    </footer>
+    <script src="./sw.js"></script>
+    <script src="./gallery.js"></script>
+</body>
+</html>

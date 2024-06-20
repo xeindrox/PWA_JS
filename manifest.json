@@ -1,0 +1,16 @@
+{
+    "name": "Blog Podróżniczy",
+    "short_name": "Podróże",
+    "start_url": "/PWA/",
+    "orientation": "portrait",
+    "display": "standalone",
+    "background_color": "#33CC33",
+    "theme_color": "#33CC33",
+    "icons": [
+        {
+            "src": "logo.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
